@@ -84,6 +84,17 @@ p string.strip
 p string.split.size 
 p string.split(//).size 
 
+# Numbers with Ruby 
+
+p 5*5 # times 
+p 5**5 # exponent 
+
+# in order to get acruate you have to 2.0 /216 rather than 2/216
+# Integer (1. 2. 3)
+# Float (1.2, 3.1, 4.23)
+# Decimals (3.54535, 6.4535)
+
+
 
 
 
