@@ -1,55 +1,55 @@
-# # RuUBY VARIABLES 
+# RuUBY VARIABLES 
 
-# puts [1, 2, 3, 4]
-# p [1, 2, 3, 4]
+puts [1, 2, 3, 4]
+p [1, 2, 3, 4]
 
-# puts "What is your password?" 
-# password = gets.chomp
+puts "What is your password?" 
+password = gets.chomp
 
-# if password == "MoBear"
-#   puts true
-# else
-#   puts false 
-# end 
+if password == "MoBear"
+  puts true
+else
+  puts false 
+end 
 
-# #Local Variables 
-# 10.times do 
-#   x = 10 
-# end 
+#Local Variables 
+10.times do 
+  x = 10 
+end 
 
-# # Global Variables 
+# Global Variables 
 
-# 10.times do 
-#   $x = 10
-# end 
+10.times do 
+  $x = 10
+end 
 
-# p $x
+p $x
 
-# # Instance Variables 
-# @batt_average = 300 
-# # used in html @jobs.each do |jobs|
+# Instance Variables 
+@batt_average = 300 
+# used in html @jobs.each do |jobs|
 
-# # Constant 
-# TEAM = "Angels"
-# TEAM= "Athletics"
+# Constant 
+TEAM = "Angels"
+TEAM= "Athletics"
 
-# p TEAM
+p TEAM
 
-# # Class Variable 
-# class MyClass 
-#   @@teams = ["A's", "Tigers"]
-# end 
-# # A variable that is available to that Class !!
+# Class Variable 
+class MyClass 
+  @@teams = ["A's", "Tigers"]
+end 
+# A variable that is available to that Class !!
 
-# # RUBY STRINGS  
+# RUBY STRINGS  
 
-# puts "Name an animal" 
-# animal = gets.chomp 
+puts "Name an animal" 
+animal = gets.chomp 
 
-# puts "Name a noun"
-# noun = gets.chomp
+puts "Name a noun"
+noun = gets.chomp
 
-# p "The quick brown #{animal} jumped over the lazy #{noun}"
+p "The quick brown #{animal} jumped over the lazy #{noun}"
 
 
 # String Manipulation 
